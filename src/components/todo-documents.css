@@ -1,0 +1,26 @@
+.todo-document-picker{display:grid;gap:10px;min-width:0}
+.todo-document-picker label{display:grid;gap:8px;font-size:12px;color:#53675a}
+.todo-document-picker label>span{font-size:10px}
+.todo-document-search{position:relative}
+.todo-document-search>svg{position:absolute;left:12px;top:14px;color:var(--muted)}
+.todo-document-picker .todo-document-search input{width:100%;padding:11px 12px 11px 35px;border:1px solid #d4dfd3;border-radius:8px;background:#fcfdf9;font-size:13px}
+.todo-document-selected{display:flex;gap:10px;align-items:center;padding:12px;background:var(--mint);border:1px solid #c5d9c6;border-radius:9px;color:var(--forest)}
+.todo-document-selected>div{flex:1;min-width:0;display:grid;gap:5px}
+.todo-document-selected strong{font-size:12px;line-height:1.6;overflow-wrap:anywhere}
+.todo-document-selected small{font-size:10px;line-height:1.6}
+.todo-document-selected .icon-button{border:0;background:transparent;color:var(--forest)}
+.todo-document-results{max-height:190px;overflow-y:auto;border:1px solid var(--line);border-radius:9px}
+.todo-document-results>button{display:flex;align-items:flex-start;gap:9px;text-align:left;width:100%;padding:10px 12px;border:0;border-bottom:1px solid var(--line);background:#fff;color:var(--ink)}
+.todo-document-results>button:last-child{border-bottom:0}
+.todo-document-results>button:hover,.todo-document-results>button[aria-pressed=true]{background:#edf3e9}
+.todo-document-results>button>div{flex:1;min-width:0;display:grid;gap:4px}
+.todo-document-results>button span{font-size:12px;line-height:1.6}
+.todo-document-results>button small{font-size:9px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}
+.todo-document-results svg{flex-shrink:0;margin-top:3px;color:var(--forest)}
+.todo-document-picker>.small{margin:0;font-size:10px;line-height:1.7}
+.todo-document-picker button:focus-visible,.todo-document-picker input:focus-visible{outline:3px solid #7cac8c;outline-offset:-2px}
+.agenda-item .todo-title-link,.todo-item .todo-title-link{font-size:13px;font-weight:550;color:var(--forest);text-decoration:none}
+.todo-title-link:hover{text-decoration:underline!important;text-underline-offset:4px}
+.todo-item .todo-document-link{font-size:11px;color:var(--muted);display:block;margin-top:6px}
+.todo-list>.todo-document-picker{margin:12px 0 22px}
+.todo-item.done .todo-title-link{text-decoration:line-through}

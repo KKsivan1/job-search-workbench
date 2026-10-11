@@ -1,0 +1,12 @@
+data
+cloud.config.json
+.env*
+.tool-cache
+.next
+.next-cloud
+.cloud-build
+.cloud-build-tcb
+out-cloudbase
+out
+node_modules
+.git

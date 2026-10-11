@@ -1,0 +1,402 @@
+{
+  "name": "求职工作台",
+  "kind": "source-only-no-history",
+  "files": [
+    {
+      "file": ".env.example",
+      "sha256": "343355887881d94c992b0be9d5edd48690d15088cc50c3f96828ae4d6ea60b35"
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "3354c96e3919ac50288f94d01c5d3ed6fc6534813a589f8686fa0008a1b794d9"
+    },
+    {
+      "file": ".vercelignore",
+      "sha256": "0930772372df52ed6b985e08beed85c13d5a6c7cb8ea2173371a65e188c9bcc1"
+    },
+    {
+      "file": "README.md",
+      "sha256": "0fd6d376c75f8e54d56ba4459dcbdbed5860083d4adf41136ff551b201757fbd"
+    },
+    {
+      "file": "cloud/functions/account/index.cjs",
+      "sha256": "993ab785b529097351f7ec3332eca6780ccf99516126533a356957f3fd24b05d"
+    },
+    {
+      "file": "cloud/functions/account/package.json",
+      "sha256": "3fdbfe8422e1661a6035c5a795aa8354b032987cd146fa6d4519f7c61a5046e9"
+    },
+    {
+      "file": "cloud/functions/learning/index.cjs",
+      "sha256": "623c85639ed2a5104e35f059382b299dc338acd17b4196e7a90ee2797806c46d"
+    },
+    {
+      "file": "cloud/functions/learning/package.json",
+      "sha256": "d3e772c46907be73d1e6bc21b64e4075de9d5a5300a001f66da61532a250550f"
+    },
+    {
+      "file": "eslint.config.mjs",
+      "sha256": "7c73cb86579cedfddbb65b33981d705a39c711f87c666e43bf32ff6191dbe3a1"
+    },
+    {
+      "file": "next-env.d.ts",
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "file": "next.config.ts",
+      "sha256": "43a1a886e38220a4f4a7138ac7e58789476ef5393b8c19cd37d28c0499835156"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "6f18bf79e1851157cd21ad5dcb623afc5225a5377d67cd74b4134a00380d82ea"
+    },
+    {
+      "file": "package.json",
+      "sha256": "56ed82b0eaf081c45e38e446e861ac55c0dbc23ca6aa06b3c6da499678282fcc"
+    },
+    {
+      "file": "scripts/build-account-function.mjs",
+      "sha256": "ded73bfcc539f9ceb8909e731493420cd4a5d3afcf8e15ab804c283aae2c5fcd"
+    },
+    {
+      "file": "scripts/build-cloud.mjs",
+      "sha256": "d48ef6406ad0b18571d964abf803445339aa0740b1b92f7ecaef2d9d6dcaad8f"
+    },
+    {
+      "file": "scripts/build-learning-function.mjs",
+      "sha256": "8154e2abc1c59f73fff9d69c8a407603d27bd92f73b84f6b7b53a1587b5c956c"
+    },
+    {
+      "file": "scripts/learning-ocr.ps1",
+      "sha256": "15ab23d10c1aa4613464cd5436b63254bf24a9d8b9235e4deafc950989f6f88a"
+    },
+    {
+      "file": "src/app/answers/page.tsx",
+      "sha256": "5a00750f5f3bd3961b0a08bb110f71ba1e75570c4d28c9c9203768da4bc368e5"
+    },
+    {
+      "file": "src/app/applications/page.tsx",
+      "sha256": "eccf71e47d2dabba03a04a3ab87283c52bcca74ff6584edbac1aa512adb6b29f"
+    },
+    {
+      "file": "src/app/applications/trash/page.tsx",
+      "sha256": "4830781c6fd93180a4423a8d3dcd9476c49bb2c0e64944ae91b5cfc4d15f0483"
+    },
+    {
+      "file": "src/app/companies/page.tsx",
+      "sha256": "057b88aeb62b8431a36ded5fefdc61b2da26bbb1d0a62257768b9245d9445328"
+    },
+    {
+      "file": "src/app/globals.css",
+      "sha256": "c0bd39007c04013b358b1a1033ac83539bdd181afd36ea2d3963d05db731b1af"
+    },
+    {
+      "file": "src/app/interviews/loading.tsx",
+      "sha256": "196826aeb7154b3d11bbfda6fff8c956347254e65a466b477a5d8ba869841b46"
+    },
+    {
+      "file": "src/app/interviews/page.tsx",
+      "sha256": "fdccef4139543051c03c8426f4dff47399b87509e14b5923baca63014f884157"
+    },
+    {
+      "file": "src/app/interviews/view/page.tsx",
+      "sha256": "4cc29413597a0f8d344608de46b8c8e96d547e48679c1cdf6e27aaa907697ffe"
+    },
+    {
+      "file": "src/app/layout.tsx",
+      "sha256": "ad0024a12631af81e38a82ba3f096ba000b8ff894b99a3ef562d0a254ccf6455"
+    },
+    {
+      "file": "src/app/learn/page.tsx",
+      "sha256": "4e0be453cdb930085326e9fe5d93ec2fd7615dc6ef0133245bf660a10ba95e29"
+    },
+    {
+      "file": "src/app/login/page.tsx",
+      "sha256": "54526989d83b111ea6dd4e40b1afcb8645ae7bd5b88f3596482d3199b0747b56"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "sha256": "05ca4e8bf36dff399817d1bc1ee4d8c5588b1ac00b0d8cd218241ca08c9ddb8c"
+    },
+    {
+      "file": "src/app/practice/page.tsx",
+      "sha256": "c9b99a147bceeb4d3363b9e5627728800f04cda9a7a15b2da2995d6467067a13"
+    },
+    {
+      "file": "src/app/wiki/page.tsx",
+      "sha256": "a6192c334c2927d79f5abb60f66f0237266d9705e0ddea0021883d8dfe22a607"
+    },
+    {
+      "file": "src/components/answer-browser.tsx",
+      "sha256": "1a4ecada00f305de8bca87cb903d48c8158e24923022267970744269b2b3ce33"
+    },
+    {
+      "file": "src/components/app-shell.tsx",
+      "sha256": "bb4b299d28bf62555fba769a03543b60e7bbade62cb2d86349a5c667b31618ee"
+    },
+    {
+      "file": "src/components/application-board.tsx",
+      "sha256": "1bd13775d5de906e8b4c260d9cf36d082010270b02811f96996ed402986cbc0b"
+    },
+    {
+      "file": "src/components/back-to-top.tsx",
+      "sha256": "324f1d7e8bd531327e9ccb35d0fe62b0c4fed9100904d12302748d98cb2d6526"
+    },
+    {
+      "file": "src/components/document-workspace.tsx",
+      "sha256": "81c435ce26163f82d5f64d6c0adc96dade04e347bc70958adcb57eaec2b3e23b"
+    },
+    {
+      "file": "src/components/interview-browser.tsx",
+      "sha256": "9378a767796ac5a63d1742901a1affdcfa61fc58b521b7e016ba8e14de3d4893"
+    },
+    {
+      "file": "src/components/latest-review.tsx",
+      "sha256": "bc7110961b8e5d727efa211f8b0019d208cffe8a15be7405bff271c9b7915753"
+    },
+    {
+      "file": "src/components/markdown-view.tsx",
+      "sha256": "2c8386feed36233646ce0af3cdfff82b9f7d91f6a9d3c354136d60a7a8bde670"
+    },
+    {
+      "file": "src/components/navigation-hint.tsx",
+      "sha256": "e45d7bf784efeafa8a3100e5294db850893f027e168d059076614d8a04f65da3"
+    },
+    {
+      "file": "src/components/recruitment-calendar.tsx",
+      "sha256": "56168744968cb9e5e14a3316e7ec33e3796794aeb38947c7f50801cbe36d2280"
+    },
+    {
+      "file": "src/components/section-jump.tsx",
+      "sha256": "7885ff7574137b076a65af27d334b0bbd4fe8c33efe22d769f243376de7ec4b7"
+    },
+    {
+      "file": "src/components/todo-document-picker.tsx",
+      "sha256": "8a525ea5d0ec8f5642c19e39a24b25f01a632ae4429038a2674dfa407aeb6e1f"
+    },
+    {
+      "file": "src/components/todo-documents.css",
+      "sha256": "d7aa47b0b4bd79855c26239d1815027836dcf7a52372e7337e26f80f5f9109a0"
+    },
+    {
+      "file": "src/components/todo-edit-dialog.tsx",
+      "sha256": "e9dff875428a7d0ecccc7cee8c2cf040889aa8e349219e566b6f2c8e00a68bd0"
+    },
+    {
+      "file": "src/components/todo-list.tsx",
+      "sha256": "5718d5b0f39991c4100153b71c6a9b5efbb5312adda30084c249c3bd8b627713"
+    },
+    {
+      "file": "src/components/todo-trash.tsx",
+      "sha256": "3953c5a612224ad985df8ace7a4a945decd358882a8de75c0d21485fb0367180"
+    },
+    {
+      "file": "src/components/wiki-editor.tsx",
+      "sha256": "146ef57521b15e4d6ed8789dbe20ba88e1a54903dbff14bb0f6b6d62d979d817"
+    },
+    {
+      "file": "src/lib/api-entry.cloud.ts",
+      "sha256": "7267cd1ad2b775339122b1953bf4d2ef7bca81e8bdd74ea5c1f700359ca61479"
+    },
+    {
+      "file": "src/lib/api-entry.ts",
+      "sha256": "162a81f4058d5fa7d90eddeed7331a9e52a0f4279fbd41882a2ea27687e49a18"
+    },
+    {
+      "file": "src/lib/application-archive.ts",
+      "sha256": "c890e20e4cc368156b673395dfb3d5d98a3e25b50d3fac36ff17cbe90a2f8f53"
+    },
+    {
+      "file": "src/lib/cloud-api.ts",
+      "sha256": "b714be3ae2aa41768d22f91d21a3711183f6a809d0735da3c9d4dd6159b0d777"
+    },
+    {
+      "file": "src/lib/cloudbase.ts",
+      "sha256": "b30bf1e179567ba30088d71668fb8c0bbb57c5feece0ba4f415bdfb4bdd0e230"
+    },
+    {
+      "file": "src/lib/core.ts",
+      "sha256": "832c0c0f7a1e800b7dfba0396a9031d38f2823719b8a84425bb9a2a382b9796f"
+    },
+    {
+      "file": "src/lib/data-provider.tsx",
+      "sha256": "bb6babc4f6861f04a029d8d94ac7accb36a57fe1c93ab26274dd88cd0bd86b9f"
+    },
+    {
+      "file": "src/lib/db.ts",
+      "sha256": "c0afb72fe029c9a26b3226906e10ae8e6fcfa2af8f9519591d095a775c6b7030"
+    },
+    {
+      "file": "src/lib/deepseek-learning.ts",
+      "sha256": "c17325b930e573b1a28de539bc7cf1ad5fbf8e2c4bec6a1dc5aed0b4c0c3d336"
+    },
+    {
+      "file": "src/lib/interview-store.ts",
+      "sha256": "6f3efea4158a76e7138de2e21a5df08509bf6c9b1ae91a18fa4191d852222469"
+    },
+    {
+      "file": "src/lib/interviews.ts",
+      "sha256": "484e99a8bd580e71026989cf7b446b3442e59d0b86d29fe939ff0a845140ae12"
+    },
+    {
+      "file": "src/lib/learning-browser-source.ts",
+      "sha256": "c5a13fac323c1256081e5d2e38b9687cd9fb40c79abea0f259970210022b82d6"
+    },
+    {
+      "file": "src/lib/learning-image.ts",
+      "sha256": "7117865cdf7813f18cc19f22cb908fb9c9bbe9b4ed455ebf5a9a80ce767cf5d5"
+    },
+    {
+      "file": "src/lib/learning-input.ts",
+      "sha256": "be921c3c17f691e81ffe070291de41cd9ed449e2f01313e96faae75b90343d22"
+    },
+    {
+      "file": "src/lib/learning-lock.ts",
+      "sha256": "f153c0175ca8d3b70891f83e6cac43679fc3b0eac6900bdf9dde4ad06c9db3eb"
+    },
+    {
+      "file": "src/lib/learning.ts",
+      "sha256": "3acaeaac162b81bf9391cd7e81c5529ad3dca5b318334cae37f221707845c3ec"
+    },
+    {
+      "file": "src/lib/local-actions.ts",
+      "sha256": "3e312cac3ae7c35ce4dac6f4a2d3c214877443dcd6393b47dc3e7ccc5d89a772"
+    },
+    {
+      "file": "src/lib/local-api.ts",
+      "sha256": "7883202320993a169a6ee59a05fae75823d1ce7759ad0b94124a02badc67d962"
+    },
+    {
+      "file": "src/lib/manual-interviews.ts",
+      "sha256": "ca6a03d30dd9ceaf86a4fe1ee2609b271e37bbd8e1a3509d512de1d4a45a0a9e"
+    },
+    {
+      "file": "src/lib/pins.ts",
+      "sha256": "8306e6042bc92fed156b86defd2904cb4be984e2c1fa5353cae27d7c85df1e6a"
+    },
+    {
+      "file": "src/lib/recruitment-calendar.ts",
+      "sha256": "e903db35f9179c3f4a2c865f80414b5391060135d52fd7015edb0f13b630b6d3"
+    },
+    {
+      "file": "src/lib/scoped-database.ts",
+      "sha256": "ba130356e3f5de5b7c796442ec8ad6766cd10643bd1b3992947823ac8a677001"
+    },
+    {
+      "file": "src/lib/todo-archive.ts",
+      "sha256": "d2ebd1d248557cdbfda4e080b146840dee5c915f8d0616aa6241cb78265b4b74"
+    },
+    {
+      "file": "src/lib/todo-document-store.ts",
+      "sha256": "6ba0c04fd98a1524e1f556728ef874f1a50990f755d4e45e110707eb5c5cc834"
+    },
+    {
+      "file": "src/lib/todo-document.ts",
+      "sha256": "c44217d1b9b022f819d121b7ffb7b0ae508932a6a45657f68364c95c8733f3af"
+    },
+    {
+      "file": "src/lib/todo-update.ts",
+      "sha256": "0bbc222202d632825f9ab8fdc0479ea29f2ce68d7da5b5a89ab61d1d78d9a640"
+    },
+    {
+      "file": "src/lib/types.ts",
+      "sha256": "0013b75b5cccbb91894df38b7fe7751e3cf8b33ee816af4b6718554afa0f2df1"
+    },
+    {
+      "file": "src/lib/wiki.ts",
+      "sha256": "d0937bd0eb643f1b1870ad1ca57525654ab03af812ae977ac67a9d70c10a58d5"
+    },
+    {
+      "file": "tests/application-archive.test.ts",
+      "sha256": "23f3259a309613ab21f3f9e8bf2c2286f40d52894ff02f8f972baac4f612b36d"
+    },
+    {
+      "file": "tests/cloud-registration.test.ts",
+      "sha256": "85425ffaa7532e079673cb017afe1239de5a680501bfb928502bfb08ebde927e"
+    },
+    {
+      "file": "tests/deepseek-learning.test.ts",
+      "sha256": "2e94ffc8c5ce96304e542e179681c9b6b6ae9e17a1296635b28112120fccdfff"
+    },
+    {
+      "file": "tests/learning-input.test.ts",
+      "sha256": "5ea1464a314a48ae7f955ae671d25b57f2a38b2a1d6b8a0a7e36ecbcf8d1ff59"
+    },
+    {
+      "file": "tests/learning-lock.test.ts",
+      "sha256": "f3576c8a25613b494240a5fc17ff51431b168ca761a53e36a707703a9333c140"
+    },
+    {
+      "file": "tests/learning-save.test.ts",
+      "sha256": "b7368d4c48645ab396c3ed6e5a6124d1cd9c04c245469d1d681624befad77509"
+    },
+    {
+      "file": "tests/public-smoke.test.ts",
+      "sha256": "f18fe29fb3dbfa490492c4f5666155802ef0f8f7a094af85ee3111978d275909"
+    },
+    {
+      "file": "tests/recruitment-calendar.test.ts",
+      "sha256": "feda285ce67b5dfb375ad06902dc87ddf04d73a532a815bccfd55b0a50510be0"
+    },
+    {
+      "file": "tests/scoped-database.test.ts",
+      "sha256": "6ca7657b5ad69762b4642fbdce34472ff75a9c8767b6cb33055e7ab15b0c4812"
+    },
+    {
+      "file": "tests/todo-archive.test.ts",
+      "sha256": "793ba8a0d6e580f42533d3a178e4200b86e156bee03bc402284333f2d01e6675"
+    },
+    {
+      "file": "tests/todo-document.test.ts",
+      "sha256": "bedf0ad81e42d07adae90b4bac519c3e5c38bde8bea1d4148a738b63c560397a"
+    },
+    {
+      "file": "tests/todo-update.test.ts",
+      "sha256": "61b9ec164dc97787459c7c48186069a27ca15f2e29564a28d43061f906a97ffc"
+    },
+    {
+      "file": "tsconfig.cloud.json",
+      "sha256": "fcba62b704f3dac7d8f1428d50f7360c4fee0dc16aebb12a398ec15f5f765249"
+    },
+    {
+      "file": "tsconfig.json",
+      "sha256": "2bb03786945aae990a3e47739ac01020543da8342ba15ed4c89c1a0919b3e9ac"
+    },
+    {
+      "file": "vercel.json",
+      "sha256": "e23c48ef7041d27a403b4849ca40f235c17b18e3d9392c33fc43512773840572"
+    },
+    {
+      "file": "wiki/hot.md",
+      "sha256": "7d06cbc64d17995c1b6b894ba275aaaa2ae5e5ffa230f22d2f08e894f1044a88"
+    },
+    {
+      "file": "wiki/index.md",
+      "sha256": "ae7262e39d030b537684936838162c7a0837f802ab7f768e9b23635a5afcdf04"
+    },
+    {
+      "file": "wiki/log.md",
+      "sha256": "6535fd5c7827a5ce8dd78a9cb30dc4ee95e7a30b77b9456df003c28079ff3283"
+    },
+    {
+      "file": "wiki/meta/求职准备待办.md",
+      "sha256": "11b03035cb03d0433f05f4b855d03ee93a50b912a4549ed20e73f0445df53e4f"
+    },
+    {
+      "file": "wiki/meta/面试时间线.md",
+      "sha256": "ced56279d560232fa3c791498236bfc80563e34e8f3c6c8cf800f6b8299082e6"
+    },
+    {
+      "file": "wiki/meta/面试问答映射表.md",
+      "sha256": "0bec36dc781638ecfad96d2a5edaa220755c6be464210b751d35013f6aee38f7"
+    },
+    {
+      "file": "wiki/questions/interview-core/复练方法.md",
+      "sha256": "e3c7221fb88fb7cf63ea4638555f340629d6a50a42d0e6a2cbb8fadeaa74d884"
+    },
+    {
+      "file": "wiki/questions/自我介绍模板.md",
+      "sha256": "2543d398aa5c0d6c59927494f3dabd73c919e3103d56171b0c64e40eeca67c19"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build:cloud",
+  "outputDirectory": "out",
+  "framework": null,
+  "cleanUrls": true
+}
